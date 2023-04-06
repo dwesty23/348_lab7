@@ -20,8 +20,7 @@ echo "<table border=\"1\">";
             for ($c = 1; $c <= $cols; $c++){
                 echo '<td>' .$c*$r.'</td>'; 
             }
-           echo '</tr>'; // close tr tag here
-
+           echo '</tr>'; // close tr tag
         }
   echo"</table>";
 ?>    
