@@ -11,9 +11,9 @@
             echo '<td></td>';
         }
             
-        else{
-            echo '<td>' .$i.'</td>';
-        }
+    else{
+        echo '<td>' .$i.'</td>';
+    }
             
     }
     for ($r =1; $r <= $rows; $r++){
