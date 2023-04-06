@@ -1,0 +1,56 @@
+<html>
+
+    <head>
+        <style>
+            body{
+                font-family:'Courier New', Courier, monospace;
+                background-color: darkslategray;
+            }
+            img{
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                border: 2px grey solid;
+            }
+            a{
+                color: rgb(111, 88, 111);
+            }
+            #par{
+                border: 0px solid black;
+            }
+        </style>
+
+        <script>
+            function password(){
+                var pass1 = document.getElementById("one").value;
+                var pass2 = document.getElementById("two").value;
+
+
+                if (pass1.length < 8) {
+                    alert("length must be at least 8 letters...")
+                } else if (pass2.length < 8) {
+                    alert("length must be at least 8 letters...")
+                } else if (pass1 != pass2) {
+                    alert("passwords do not match...")
+                } else {
+                    alert("welcome!")
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        Password: <input type="text" id="one" value=""> <br>
+        Re-enter Password: <input type="text" id="two" value=""> <br>
+
+    <button onclick="password()">Validate Your Passwords</button> <br>
+
+
+    </body>
+
+
+
+
+
+
+</html>
